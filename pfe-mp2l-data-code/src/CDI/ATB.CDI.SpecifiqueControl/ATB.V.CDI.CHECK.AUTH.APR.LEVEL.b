@@ -26,7 +26,6 @@ SUBROUTINE ATB.V.CDI.CHECK.AUTH.APR.LEVEL
     $USING AC.EntryCreation
     $USING LC.Contract
     $USING EB.Foundation
-    $USING EB.Security
 
 
     EB.LocalReferences.GetLocRef("LETTER.OF.CREDIT", "L.AUT.LEVEL", POSAUTHLV)

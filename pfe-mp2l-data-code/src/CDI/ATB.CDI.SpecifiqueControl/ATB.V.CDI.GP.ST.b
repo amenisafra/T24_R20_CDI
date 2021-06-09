@@ -16,6 +16,7 @@ $PACKAGE ATB.CDI.SpecifiqueControl
 *
 SUBROUTINE ATB.V.CDI.GP.ST
 
+
     $USING EB.SystemTables
     $USING EB.API
     $USING EB.DataAccess

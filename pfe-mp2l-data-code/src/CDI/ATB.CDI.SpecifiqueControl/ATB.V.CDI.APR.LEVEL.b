@@ -55,10 +55,10 @@ SUBROUTINE ATB.V.CDI.APR.LEVEL
         Y.APR = 0
     END
 
-    Y.APR.LEVEL = "H":Y.APR
+    Y.APR.LEVEL = "HH":Y.APR
 
     LocalRef <1, POSAPR> = Y.APR.LEVEL
     EB.SystemTables.setRNew(LC.Contract.LetterOfCredit.TfLcLocalRef, LocalRef)
-        
+  
 
 RETURN

@@ -39,10 +39,9 @@ SUBROUTINE ATB.V.CDI.APR.LEVEL.ENDOS
     EB.DataAccess.Opf(fnGpST, fGpST)
 
     Y.PRODUIT = "CDI"
-    Y.ACT.AUTH = "AUTHORISE"
+    Y.ACT.AUTH = "AUTHORISER"
     
     cmdSelect = "SELECT ":fnGpST:" WITH PRODUIT EQ '":Y.PRODUIT:"'"
-
 
     EB.DataAccess.Readlist(cmdSelect, listRecs, "", nbrRecs, error)
     
